@@ -71,7 +71,7 @@ After decades of research in the AI field, a new model architecture – **called
 
 In the next chapter we are going to explore different types of Generative AI models, but for now let’s have a look at how large language models work, with a focus on OpenAI GPT (Generative Pre-trained Transformer) models.
 
-* **Tokenizer, text to numbers**: Large Language Models receive a text as input and generate a text as output. However, being statistical models, they work much better with numbers than text sequences. That’s why every input to the model is processed by a tokenizer, before being used by the core model. A token is a chunk of text – consisting of a variable number of characters, so the tokenizer's main task is splitting the input into an array of tokens. Then, each token is mapped with a token index, which is the integer encoding of the original text chunk.
+* **Tokenizer, text to numbers**: Large Language Models receive a text as input and generate a text as output. However, being statistical models, they work much better with numbers than text sequences. That’s why every input to the model is processed by a tokenizer, before being used by the core model. **A token is a chunk of text – consisting of a variable number of characters, so the tokenizer's main task is splitting the input into an array of tokens. Then, each token is mapped with a token index, which is the integer encoding of the original text chunk.**
 
 ![Example of tokenization](./images/tokenizer-example.png?WT.mc_id=academic-105485-koreyst)
 
@@ -82,7 +82,7 @@ In the next chapter we are going to explore different types of Generative AI mod
 ## How can our startup leverage Large Language Models?
 
 Now that we have a better understanding of the inner working of a large language model, let’s see some practical examples of the most common tasks they can perform pretty well, with an eye to our business scenario.
-We said that the main capability of a Large Language Model is *generating a text from scratch, starting from a textual input, written in natural language*.
+We said that the main capability of a Large Language Model is **generating a text from scratch, starting from a textual input, written in natural language**.
 
 But what kind of textual input and output?
 The input of a large language model is known as prompt, while the output is known as completion, term that refers to the model mechanism of generating the next token to complete the current input. We are going to dive deep into what is a prompt and how to design it in a way to get the most out of our model. But for now, let’s just say that a prompt may include:
